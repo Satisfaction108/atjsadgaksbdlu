@@ -10,7 +10,7 @@ server = require('http').createServer((req, res) => {
             break;
         case "/serverData.json":
             resStr = JSON.stringify({
-                gameMode: c.gameModeName,
+                gameMode: Config.gameModeName,
                 players: views.length,
                 closed: arenaClosed,
                 location: c.LOCATION,
@@ -28,6 +28,6 @@ server = require('http').createServer((req, res) => {
 });
 
 server.on('upgrade', (req, socket, head) => wsServer.handleUpgrade(req, socket, head, ws => sockets.connect(ws, req)));
-server.listen(c.port, c.host, () => console.log("Server listening on port", c.port));
+server.listen(Config.port, c.host, () => console.log("Server listening on port", Config.port));
 
 module.exports = { server };
