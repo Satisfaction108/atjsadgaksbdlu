@@ -13,8 +13,8 @@ server = require('http').createServer((req, res) => {
                 gameMode: Config.gameModeName,
                 players: views.length,
                 closed: arenaClosed,
-                location: c.LOCATION,
-                hidden: c.HIDDEN,
+                location: Config.LOCATION,
+                hidden: Config.HIDDEN,
             });
             break;
     }
@@ -28,6 +28,6 @@ server = require('http').createServer((req, res) => {
 });
 
 server.on('upgrade', (req, socket, head) => wsServer.handleUpgrade(req, socket, head, ws => sockets.connect(ws, req)));
-server.listen(Config.port, c.host, () => console.log("Server listening on port", Config.port));
+server.listen(Config.port, Config.host, () => console.log("Server listening on port", Config.port));
 
 module.exports = { server };
