@@ -1314,7 +1314,7 @@ Class.nexusPortal = {
     PARENT: 'genericEntity',
     LABEL: 'APS++ Nexus Portal',
     COLOR: 'black',
-    NAME: c.LOCATION,
+    NAME: Config.LOCATION,
     IGNORED_BY_AI: true,
     ACCEPTS_SCORE: false,
     CAN_BE_ON_LEADERBOARD: false,
@@ -1362,7 +1362,7 @@ Class.nexusPortal = {
             // radius and socket check
             if (component < difference.length - combinedRadius || !n.socket) return;
 
-            get_client(c.CLIENT_HOST, "random").then(data => {
+            get_client(Config.CLIENT_HOST, "random").then(data => {
                 n.socket.talk(
                     'REDIRECT',
                     data.protocol,

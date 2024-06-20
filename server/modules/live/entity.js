@@ -49,11 +49,6 @@ class Gun extends EventEmitter {
         this.drawFill = true;
         this.drawAbove = false;
         if (info.PROPERTIES != null) {
-            if (info.PROPERTIES.TYPE != null) {
-                this.canShoot = true;
-                this.label = info.PROPERTIES.LABEL ?? "";
-                this.setBulletType(info.PROPERTIES.TYPE);
-            }
             this.autofire = info.PROPERTIES.AUTOFIRE ?? false;
             this.altFire = info.PROPERTIES.ALT_FIRE ?? false;
             this.statCalculator = info.PROPERTIES.STAT_CALCULATOR ?? "default";
@@ -66,6 +61,15 @@ class Gun extends EventEmitter {
             this.syncsSkills = info.PROPERTIES.SYNCS_SKILLS ?? false;
             this.negativeRecoil = info.PROPERTIES.NEGATIVE_RECOIL ? -1 : 1;
             this.independentChildren = info.PROPERTIES.INDEPENDENT_CHILDREN ?? false;
+            this.destroyOldestChild = info.PROPERTIES.DESTROY_OLDEST_CHILD ?? false;
+            this.shootOnDeath = info.PROPERTIES.SHOOT_ON_DEATH ?? false;
+            this.stack = info.PROPERTIES.STACK_GUN ?? true ;
+            this.identifier = info.PROPERTIES.IDENTIFIER ?? null;
+            if (info.PROPERTIES.TYPE != null) {
+                this.canShoot = true;
+                this.label = info.PROPERTIES.LABEL ?? "";
+                this.setBulletType(info.PROPERTIES.TYPE);
+            }
             if (info.PROPERTIES.COLOR != null) {
                 this.color.interpret(info.PROPERTIES.COLOR);
             }
@@ -74,11 +78,7 @@ class Gun extends EventEmitter {
             if (info.PROPERTIES.BORDERLESS != null) this.borderless = info.PROPERTIES.BORDERLESS;
             if (info.PROPERTIES.DRAW_FILL != null) this.drawFill = info.PROPERTIES.DRAW_FILL;
             if (info.PROPERTIES.DRAW_ABOVE) this.drawAbove = info.PROPERTIES.DRAW_ABOVE;
-            this.destroyOldestChild = info.PROPERTIES.DESTROY_OLDEST_CHILD ?? false;
             if (this.destroyOldestChild) this.maxChildren++;
-            this.shootOnDeath = info.PROPERTIES.SHOOT_ON_DEATH ?? false;
-            this.stack = info.PROPERTIES.STACK_GUN ?? true ;
-            this.identifier = info.PROPERTIES.IDENTIFIER ?? null;
         }
         let position = info.POSITION;
         if (Array.isArray(position)) {
