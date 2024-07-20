@@ -3,10 +3,10 @@ module.exports = {
 
     // Game server domain.
     // If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    host: "https://sites.google.com/view/tarras-io/page?authuser=0",
+    host: "tarras-io.glitch.me",
 
     // Which port to run the web server on.
-    port: 26301,
+    port: 8080,
 
     // How often to update the list of the entities that players can see.
     // Has effects of when entities are activated.
