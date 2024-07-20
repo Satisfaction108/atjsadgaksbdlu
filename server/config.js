@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    host: "tarras-io.glitch.me",
+    host: "tarras-io2.glitch.me",
 
     // Which port to run the web server on.
     port: 8080,
