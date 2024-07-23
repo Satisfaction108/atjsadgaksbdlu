@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    host: "replit.com/@dotscorner1234/atjsadgaksbdlu",
+    host: "localhost:26301",
 
     // Which port to run the web server on.
     port: 26301,
