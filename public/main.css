@@ -7,8 +7,17 @@
     -webkit-text-security: disc;
 }
 
-#mainBody {
-    background-color: #dbdbdb;
+.mainbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDQtbWluZC0wM18xXzIuanBn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 ::-webkit-scrollbar {
