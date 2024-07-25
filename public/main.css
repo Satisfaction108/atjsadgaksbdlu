@@ -241,10 +241,14 @@ div.optionsHeader {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: #DDE6EB;
+    background-image: url('https://img.freepik.com/free-vector/bokeh-background_23-2148486863.jpg');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     box-sizing: border-box;
     overflow: hidden;
 }
+
 body.mobile #startMenu {
     width: 770px;
 }
