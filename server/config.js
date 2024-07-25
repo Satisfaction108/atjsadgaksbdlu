@@ -51,7 +51,7 @@ module.exports = {
     DEFAULT_FILE: 'index.html',
 
     // Window name of the server terminal.
-    WINDOW_NAME: 'OSA Game Server Instance',
+    WINDOW_NAME: 'Tarras.io',
 
     // Allows you to type and run javascript code in the terminal.
     REPL_WINDOW: false,
