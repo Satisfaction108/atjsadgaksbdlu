@@ -47,7 +47,7 @@ body {
 }
 
 body {
-    font-family: 'Sevillana', sans-serif;
+    font-family: 'Noto Serif JP', serif;
     font-size: 18px;
     background: url('https://media.discordapp.net/attachments/1260450157422444574/1262649897887207604/8AAAAASUVORK5CYII.png?ex=66a2929a&is=66a1411a&hm=3d0b09d0b59d4a397407b7baa38c925664ec31b3073a8e7c3fcc6d405bb541ee&=&format=webp&quality=lossless&width=1948&height=1096') repeat;
     background-color: gray;
@@ -90,7 +90,7 @@ h2 {
 options_header {
     display: block;
     margin: 5px 0 4px;
-    font: bold 13px/1 Sevillana;
+    font: bold 13px/1 Noto Serif JP;
     color: #000000;
     text-align: center;
 }
@@ -135,7 +135,7 @@ ul {
 
 input {
     text-align: center;
-    font-family: Sevillana;
+    font-family: Noto Serif JP;
     width: 100%;
     padding: 10px;
     border: solid 1px #dcdcdc;
@@ -203,7 +203,7 @@ div {
 div.optionsHeader {
     display: block;
     margin: 10px 0 4px;
-    font: bold 13px/1 Sevillana;
+    font: bold 13px/1 Noto Serif JP;
     color: #000000;
     text-align: center;
 }
@@ -311,7 +311,7 @@ body.mobile .mobileOptions {
 body.mobile .mobileOptionsHeader {
     display: block;
     margin: 10px 0 4px;
-    font: bold 13px/1 Sevillana;
+    font: bold 13px/1 Noto Serif JP;
     color: #000000;
     text-align: center;
 }
@@ -338,7 +338,7 @@ update {
 .horizontalSelector {
     padding: 4px 0;
     margin-bottom: 4px;
-    font: bold 12px Sevillana;
+    font: bold 12px Noto Serif JP;
     text-align: center;
     overflow: auto hidden;
     scrollbar-width: none;
@@ -405,7 +405,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font: 13px/1 Sevillana;
+    font: 13px/1 Noto Serif JP;
     padding: 2px 28px 2px 8px;
     height: 21px;
     margin-left: 3px;
