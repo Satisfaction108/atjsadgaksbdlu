@@ -135,7 +135,7 @@ ul {
 
 input {
     text-align: center;
-    font-family: Ubuntu;
+    font-family: Sevillana;
     width: 100%;
     padding: 10px;
     border: solid 1px #dcdcdc;
@@ -203,7 +203,7 @@ div {
 div.optionsHeader {
     display: block;
     margin: 10px 0 4px;
-    font: bold 13px/1 Ubuntu;
+    font: bold 13px/1 Sevillana;
     color: #000000;
     text-align: center;
 }
@@ -311,7 +311,7 @@ body.mobile .mobileOptions {
 body.mobile .mobileOptionsHeader {
     display: block;
     margin: 10px 0 4px;
-    font: bold 13px/1 Ubuntu;
+    font: bold 13px/1 Sevillana;
     color: #000000;
     text-align: center;
 }
@@ -338,7 +338,7 @@ update {
 .horizontalSelector {
     padding: 4px 0;
     margin-bottom: 4px;
-    font: bold 12px Ubuntu;
+    font: bold 12px Sevillana;
     text-align: center;
     overflow: auto hidden;
     scrollbar-width: none;
@@ -405,7 +405,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font: 13px/1 Ubuntu;
+    font: 13px/1 Sevillana;
     padding: 2px 28px 2px 8px;
     height: 21px;
     margin-left: 3px;
@@ -435,7 +435,7 @@ select:active {
 }
 
 #startButton {
-    font-family: Ubuntu;
+    font-family: Sevillana;
     position: relative;
     margin: auto;
     width: 100%;
