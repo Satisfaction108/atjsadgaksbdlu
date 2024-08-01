@@ -90,7 +90,7 @@ h2 {
 options_header {
     display: block;
     margin: 5px 0 4px;
-    font: bold 7px/1 Noto Serif JP;
+    font: bold 7px/1 Ubuntu;
     color: #000000;
     text-align: center;
 }
@@ -135,7 +135,7 @@ ul {
 
 input {
     text-align: center;
-    font-family: Noto Serif JP;
+    font-family: Ubuntu;
     width: 100%;
     padding: 10px;
     border: solid 1px #dcdcdc;
@@ -203,7 +203,7 @@ div {
 div.optionsHeader {
     display: block;
     margin: 10px 0 4px;
-    font: bold 13px/1 Noto Serif JP;
+    font: bold 13px/1 Ubuntu;
     color: #000000;
     text-align: center;
 }
@@ -311,7 +311,7 @@ body.mobile .mobileOptions {
 body.mobile .mobileOptionsHeader {
     display: block;
     margin: 10px 0 4px;
-    font: bold 13px/1 Noto Serif JP;
+    font: bold 13px/1 Ubuntu;
     color: #000000;
     text-align: center;
 }
@@ -338,7 +338,7 @@ update {
 .horizontalSelector {
     padding: 4px 0;
     margin-bottom: 4px;
-    font: bold 12px Noto Serif JP;
+    font: bold 12px Ubuntu;
     text-align: center;
     overflow: auto hidden;
     scrollbar-width: none;
@@ -405,7 +405,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font: 13px/1 Noto Serif JP;
+    font: 13px/1 Ubuntu;
     padding: 2px 28px 2px 8px;
     height: 21px;
     margin-left: 3px;
